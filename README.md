@@ -2,7 +2,7 @@
 
 This is dockerised version of the aws cdk, which means you can run the tool without directly installing on your system. It's also super useful for CI/CD pipelines like gitlab ci where you want o automate the deployment of your stack once commited to git.
 
-Its available for ARM and X86_64
+Its available for X86_64, ARM will be coming soon
 
 ## Downloading
 

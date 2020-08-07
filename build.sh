@@ -7,5 +7,5 @@ docker buildx create --name awscdkbuilder
 docker buildx use awscdkbuilder
 
 echo "Building: awscdk"
-    docker buildx build --platform linux/amd64,linux/arm64 -t richarvey/awscdk:latest --push .
+    docker buildx build --platform linux/amd64 -t richarvey/awscdk:latest --push .
 
