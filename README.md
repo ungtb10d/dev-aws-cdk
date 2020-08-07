@@ -46,3 +46,9 @@ docker build -t MYBUILD .
 ``` 
 
 _NOTE:_ __./build.sh__ uses dockers buildx to build amd64 and aarch64 and push to my repo so you'll need to tweak it for your username
+
+## TODO
+
+- Use none root user
+- Decide if we support dind for conatiner artifacts
+- templates for gitlab ci
