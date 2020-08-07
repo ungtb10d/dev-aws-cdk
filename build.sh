@@ -3,7 +3,7 @@
 # Set up environment
 docker version
 docker buildx ls
-docker buildx create --name awsccdkbuilder
+docker buildx create --name awscdkbuilder
 docker buildx use awscdkbuilder
 
 echo "Building: awscdk"
